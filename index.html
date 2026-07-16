@@ -470,7 +470,6 @@ function renderEducation(){
     const item = el('div','edu-item reveal');
     item.appendChild(el('div','edu-degree',e.degree));
     item.appendChild(el('div','edu-inst',e.institution));
-    item.appendChild(el('div','edu-meta',`GPA ${e.gpa} · ${e.grad}`));
     list.appendChild(item);
   });
 }
